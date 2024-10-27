@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.contact-card {
+    background-color: #fefefe;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    max-width: 100%;
+}
+
+.social-row {
+    display: flex;
+    justify-content: space-around; /* Spread out the items evenly */
+    align-items: center; /* Vertically align the items */
+    margin-bottom: 20px;
+}
+
+.social-row div {
+    text-align: center; /* Ensure the text is centered under each icon */
+}
+
+.social-row img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.contact-card a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.contact-card a:hover {
+    color: #0078e7;
+}
+
+.contact-details {
+    margin-top: 20px;
+}

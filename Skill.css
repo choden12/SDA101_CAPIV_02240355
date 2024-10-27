@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    position: relative;
+    background-color: #f9f9f9;
+}
+.container h2 {
+    text-align: left;
+}
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.icon-row img {
+    width: 30px;
+    height: 30px;
+}
+.skills-section {
+    background-color: rgba(255, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+}
+.skills-section h3 {
+    margin: 10px 0;
+}
+.border-icons-left, .border-icons-right {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+}
+.border-icons-left {
+    left: -50px;
+}
+.border-icons-right {
+    right: -50px;
+}
+.border-icons-left img, .border-icons-right img {
+    width: 20px;
+    height: 20px;
+}
