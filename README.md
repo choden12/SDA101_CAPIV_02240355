@@ -12,7 +12,7 @@ The primary goal of this project is to create a personal profile webpage using H
 ## Installation
 # for github
 1. went gitHub page
-2. git remote set-url https://github.com/choden12/SDA101_CAP3_02240355.git
+2. git remote set-url https://github.com/choden12/SDA101_CAPIV_02240355.git
 3. git push --set-upstream origin main
 4. git status
 5. git push
