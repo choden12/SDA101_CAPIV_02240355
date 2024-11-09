@@ -1,51 +1,83 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f8f0f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 .container {
-    width: 80%;
-    margin: 20px auto;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 15px;
-    position: relative;
-    background-color: #f9f9f9;
-}
-.container h2 {
-    text-align: left;
-}
-.icon-row {
+    background-image: url('image/background.jpg'); 
+    background-size: cover; 
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 90%;
+    position: relative;
 }
-.icon-row img {
-    width: 30px;
-    height: 30px;
-}
-.skills-section {
-    background-color: rgba(255, 0, 0, 0.1);
-    padding: 15px;
-    border-radius: 10px;
-}
-.skills-section h3 {
-    margin: 10px 0;
-}
-.border-icons-left, .border-icons-right {
+.back-nav {
     position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1em;
+    color: #555;
+    text-decoration: none;
+    background-color: #ffb6c1;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.content {
+    width: 70%;
+    position: relative;
+    padding-right: 40px; 
+}
+.content h2 {
+    background-color: #ffb6c1;
+    padding: 2px;
+    width: 7;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+.skill {
+    margin: 20px 0;
+}
+.skill h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+.skill p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+.emoji-bar {
+    position: absolute;
+    right: 0;
+    top: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    top: 0;
-    bottom: 0;
-    width: 40px;
+    align-items: center;
+    gap: 10px;
 }
-.border-icons-left {
-    left: -50px;
+.emoji-bar span {
+    font-size: 1.2em;
 }
-.border-icons-right {
-    right: -50px;
+.image-container {
+    width: 30%;
+    margin-left: 10px;
 }
-.border-icons-left img, .border-icons-right img {
-    width: 20px;
-    height: 20px;
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+h2{
+    width: 20%;
+    margin-left: 100px;
 }
