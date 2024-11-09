@@ -8,6 +8,8 @@ body {
 }
 
 .contact-card {
+    background-image: url('image/background.jpg'); 
+    background-size: cover;
     background-color: #fefefe;
     border-radius: 10px;
     padding: 20px;
