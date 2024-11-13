@@ -126,7 +126,7 @@ body {
     margin-left: 100px;
   }
   
-  /* Media Queries for Responsiveness */
+  /* Media Queries for Responsiveness for iphone 14 pro max  */
   @media screen and (max-width: 768px) {
     .container {
       flex-direction: row;

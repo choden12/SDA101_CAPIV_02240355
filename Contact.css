@@ -93,7 +93,7 @@ body {
     color: #0056b3;
   }
   
-  /* Mobile Responsive */
+  /* Mobile Responsive for iphone 14 pro max */
   @media (max-width: 768px) {
     .social-row {
       flex-direction: column;
