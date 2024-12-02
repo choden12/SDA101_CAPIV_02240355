@@ -3,33 +3,286 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Myself</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="header">About <span style="color: #ff69b4">Myself</span></div>
+    <header>
+      <div class="navbar">
+        <h1>Sangay Choden</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-      <div class="content-wrapper">
-        <div class="content">
-          <p>
-            Life's a dance in endless ways,<br />
-            A gentle drift through golden rays.<br />
-            Moments fleeting, soft as air,<br />
-            A journey filled with love and care.
-          </p>
+    <!-- home section  -->
+
+    <section id="home">
+      <div class="container home-container">
+        <div class="home-content">
+          <h2>
+            I am Sangay Choden,
+            <br />
+            <!-- <br /> -->
+            a <span class="highlight">Student</span> at
+            <span class="highlight"> College of Science and Technology</span>
+            <br />
+            <br />
+            <span>Software Engineering Student</span>
+          </h2>
+
+          <div class="buttons">
+            <button>Contact me!!</button>
+          </div>
         </div>
-        <div class="profile-pic">
-          <img src="image/selpic.jpg" alt="Profile Picture" />
+        <div class="home-image">
+          <img src="image/img.jpg" alt="Personal Photo" />
         </div>
       </div>
+    </section>
 
-      <nav class="nav">
-        <a href="Myself.html">Myself</a>
-        <a href="Education.html">Education</a>
-        <a href="Contact.html">Contact</a>
-        <a href="Skill.html">Skill</a>
-      </nav>
+    <section id="skills">
+      <div class="container">
+        <h3>#skills</h3>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h4>Languages</h4>
+
+            <p>Python</p>
+            <p></p>
+          </div>
+          <div class="skill-category">
+            <h4>Tools</h4>
+            <p>VSCode</p>
+            <p>Figma</p>
+            <p>Git</p>
+          </div>
+          <div class="skill-category">
+            <h4>Other</h4>
+            <p>HTML</p>
+            <p>CSS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- abaout us -->
+    <section id="about-me">
+      <h3>#About Me</h3>
+      <div class="about-container">
+        <div class="about-content">
+          <h2>Hello!!</h2>
+          <p>
+            I am currently pursuing a degree in Software Engineering at the
+            College of Science and Technology in Rinchending, Phuentsholing. I
+            specialize in creating responsive websites, transforming them into
+            seamless and intuitive web experiences for users.
+          </p>
+          <p>
+            I've been passionate about creating websites for over a year, using
+            my skills and creativity. I've helped friends with their projects
+            and always aim to learn new technologies.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="image/selpic.jpg" alt="Sangay Choden" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <div class="container">
+        <h2>#Education</h2>
+        <div class="education-timeline">
+          <div class="education-row">
+            <div class="marker"></div>
+            <div class="education-content">
+              <p id="sname">
+                <strong>College of Science and Technology</strong>
+              </p>
+              <p><strong>2024 - Present</strong></p>
+              <p>
+                Pursuing Degree in Software Engineering, located at Rinchending,
+                Phuentsholing.
+              </p>
+            </div>
+          </div>
+
+          <!-- Hidden rows -->
+          <input type="checkbox" id="toggle-more" style="display: none" />
+          <div class="hidden-rows">
+            <div class="education-row">
+              <div class="marker"></div>
+              <div class="education-content">
+                <p id="sname">
+                  <strong> Lhuntse Higher Secondary School</strong>
+                </p>
+                <p><strong>2022 - 2023</strong></p>
+                <p>
+                    Fortunately, I qualified for higher secondary school and transferred to a new school, 
+                    one of the most renowned in the country. Lhuntse Higher Secondary School was one of 
+                    the most memorable schools, as it taught me important values and set great examples of 
+                    how to be a good human being. I stayed there for two years.
+                </p>
+              </div>
+            </div>
+            <div class="education-row">
+              <div class="marker"></div>
+              <div class="education-content">
+                <p id="sname">
+                  <strong>Minjey Middle Secondary School</strong>
+                </p>
+                <p><strong>2012-2021</strong></p>
+                <p>From there, I transferred to Minjey Middle Secondary School for my secondary education.
+                    It was a great opportunity to study and explore new things, and I stayed there from classes 3 to 10.
+                  </p>
+              </div>
+            </div>
+            <div class="education-row">
+              <div class="marker"></div>
+              <div class="education-content">
+                <p id="sname">
+                  <strong> Wombur Primary Schoo</strong>
+                </p>
+                <p><strong>2011</strong></p>
+                <p>
+                    In early 2011, I enrolled in class PP at Wombur Primary School, 
+                    which is located in the lower part of Lhuntse Dzongkhag.        
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Label to control the checkbox -->
+          <label for="toggle-more" class="toggle-label">Show More</label>
+        </div>
+      </div>
+    </section>
+
+    <div class="contact-us" id="contacts">
+      <h2>#Contact Me</h2>
+      <div class="mycontainer">
+        <!-- Contact Details -->
+        <div class="info">
+          <p>
+            <span style="color: blue; font-size: 30px">"</span> Let's Talk!
+            Contact me through the following:
+            <span style="color: blue; font-size: 30px">"</span>
+          </p>
+          <div class="social-media">
+            <!-- Facebook -->
+            <a href="#" aria-label="Facebook">
+              <svg
+                height="24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="#4267B2"
+              >
+                <path
+                  d="M22.675 0H1.325C.594 0 0 .593 0 1.326v21.348C0 23.407.594 24 1.325 24h11.49v-9.294H9.691V11.41h3.125V8.63c0-3.1 1.892-4.788 4.658-4.788 1.325 0 2.463.099 2.794.143v3.24h-1.916c-1.505 0-1.796.716-1.796 1.763v2.31h3.59l-.467 3.296h-3.123V24h6.117C23.406 24 24 23.407 24 22.675V1.326C24 .593 23.406 0 22.675 0z"
+                />
+              </svg>
+            </a>
+
+            <!-- Twitter -->
+            <a href="#" aria-label="Twitter">
+              <svg
+                height="24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="#1DA1F2"
+              >
+                <path
+                  d="M23.954 4.569c-.885.39-1.83.654-2.825.775a4.932 4.932 0 0 0 2.165-2.723 9.872 9.872 0 0 1-3.127 1.184 4.917 4.917 0 0 0-8.379 4.482 13.934 13.934 0 0 1-10.11-5.13 4.822 4.822 0 0 0-.666 2.475 4.917 4.917 0 0 0 2.188 4.1 4.897 4.897 0 0 1-2.225-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.085 4.937 4.937 0 0 0 4.604 3.417 9.86 9.86 0 0 1-6.102 2.104c-.395 0-.779-.022-1.17-.066a13.933 13.933 0 0 0 7.547 2.209c9.054 0 14.002-7.497 14.002-13.986 0-.21 0-.423-.015-.634a9.936 9.936 0 0 0 2.457-2.548l-.047-.02z"
+                />
+              </svg>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="#" aria-label="LinkedIn">
+              <svg
+                height="24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="#0077B5"
+              >
+                <path
+                  d="M20.447 20.452h-3.554V15.68c0-1.141-.021-2.608-1.59-2.608-1.59 0-1.835 1.243-1.835 2.528v4.852h-3.553V9h3.414v1.561h.048c.476-.897 1.637-1.842 3.369-1.842 3.6 0 4.266 2.369 4.266 5.452v6.281zM5.337 7.433c-1.144 0-2.063-.929-2.063-2.073C3.274 4.215 4.193 3.3 5.337 3.3s2.063.916 2.063 2.061c0 1.145-.92 2.072-2.063 2.072zm1.777 13.019H3.562V9h3.552v11.452zM22.225 0H1.771C.792 0 0 .771 0 1.775v20.452C0 23.228.792 24 1.771 24h20.452C23.209 24 24 23.228 24 22.227V1.775C24 .771 23.209 0 22.225 0z"
+                />
+              </svg>
+            </a>
+          </div>
+          <!-- Contact Details -->
+          <div class="contact-details">
+            <p>
+              <strong> <span class="highlight">Phone Number:</span></strong>
+              +975 17395470 / 77346087
+            </p>
+            <p>
+              <strong><span class="highlight">Email:</span></strong>
+              sangaycho27@gmail.com
+            </p>
+            <p>
+              <strong><span class="highlight">Address:</span></strong>
+              Rinchending, Phuntsholing, Chhukha
+            </p>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="form-container">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="Email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="Message"
+              placeholder="Message..."
+              required
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
     </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <p>&copy; 2024 Sangay Choden. All Rights Reserved.</p>
+          <br />
+          <p>Developed by Sangay</p>
+          <nav>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about-me">About Me</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+          <div class="media">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
