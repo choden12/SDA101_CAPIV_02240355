@@ -330,6 +330,153 @@ header {
   }
 }
 
+/* --- Responsive Design for Samsung A34 (393x873px, max-width: 430px) --- */
+@media (max-width: 430px) {
+  body {
+    font-size: 15px;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 8px;
+    gap: 8px;
+  }
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 0;
+  }
+  .logo {
+    margin-bottom: 10px;
+    gap: 8px;
+  }
+  .logo-name {
+    font-size: 1.1rem;
+    margin-left: 4px;
+  }
+  .container {
+    padding: 8px;
+    max-width: 100vw;
+  }
+  .about-container,
+  .skills-container,
+  .mycontainer,
+  .achievement-container {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+  }
+  .about-content,
+  .home-image,
+  .skill-category,
+  .info,
+  .form-container,
+  .achievement-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding-right: 0;
+    margin-left: 0;
+  }
+  .home-image img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  #about-me,
+  #achievement {
+    padding: 10px 2px;
+    margin: 10px 0;
+    border-radius: 8px;
+  }
+  .skill-category {
+    font-size: 0.98rem;
+    padding: 10px 4px;
+  }
+  .skill-category h4 {
+    font-size: 1rem;
+  }
+  #education {
+    padding: 2px;
+  }
+  #education h2 {
+    font-size: 1.1rem;
+  }
+  .education-timeline {
+    padding: 6px 0;
+    max-width: 100%;
+    border-left-width: 2px;
+  }
+  .education-row {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+    margin-bottom: 16px;
+  }
+  .education-content {
+    padding: 8px 6px;
+    margin-left: 0;
+    font-size: 0.98rem;
+  }
+  .marker {
+    width: 10px;
+    height: 10px;
+    left: -5px;
+    border-width: 2px;
+  }
+  .toggle-label {
+    padding: 6px 10px;
+    font-size: 1rem;
+    margin-top: 8px;
+  }
+  .achievement-card {
+    font-size: 0.98rem;
+    padding: 10px 6px;
+    min-width: 0;
+    margin: 0;
+  }
+  .contact-us {
+    padding: 10px 2px;
+  }
+  .info p {
+    font-size: 1rem;
+  }
+  .contact-details p {
+    font-size: 0.98rem;
+    padding: 8px;
+  }
+  form input,
+  form textarea {
+    font-size: 1rem;
+    padding: 8px;
+  }
+  form button {
+    font-size: 1rem;
+    padding: 8px;
+  }
+  footer {
+    padding: 8px 2px;
+    font-size: 0.98rem;
+  }
+  .footer-content {
+    gap: 6px;
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .media {
+    flex-direction: column;
+    gap: 6px;
+  }
+}
+
 /* Highlight */
 .highlight {
   color: #0066cc;
