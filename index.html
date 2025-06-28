@@ -10,42 +10,80 @@
   <body>
     <header>
       <div class="navbar">
-        <h1>Sangay Choden</h1>
+        <!-- Enhanced logo design -->
+        <div class="logo">
+          <svg width="52" height="52" viewBox="0 0 52 52" fill="none">
+            <defs>
+              <radialGradient id="logo-bg" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#a1c4fd" />
+                <stop offset="100%" stop-color="#c2e9fb" />
+              </radialGradient>
+              <linearGradient id="s-gradient" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#0066cc" />
+                <stop offset="100%" stop-color="#549ce4" />
+              </linearGradient>
+            </defs>
+            <circle
+              cx="26"
+              cy="26"
+              r="24"
+              fill="url(#logo-bg)"
+              stroke="#333"
+              stroke-width="2"
+            />
+            <path
+              d="M36 18c0-5-5-8-10-8s-10 3-10 8c0 8 20 3 20 13 0 5-5 8-10 8s-10-3-10-8"
+              stroke="url(#s-gradient)"
+              stroke-width="4"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span class="logo-name">Sangay <span class="logo-highlight">Choden</span></span>
+        </div>
         <nav>
           <ul>
             <!--this is for landing page-->
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#about-me">About me</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
+            <li><a href="#achievement">Achievements</a></li>
             <li><a href="#contacts">Contacts</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <!--This is for home section  -->
+    <!--This is for about me section  -->
 
-    <section id="home">
-      <div class="container home-container">
-        <div class="home-content">
-          <h2>
-            I am Sangay Choden,
-            <br />
-            <!-- <br /> -->
-            a <span class="highlight">Student</span> at
-            <span class="highlight"> College of Science and Technology</span>
-            <br />
-            <br />
-            <span>Software Engineering Student</span>
-          </h2>
+    <section id="about-me">
+      <div class="container about-container">
+        <div class="about-content">
+          <h2>know-yourself</h2>
+          <p>
+            I am a first-year software student at the College of
+            Science and Technology, Royal University of Bhutan. As a fresher, I
+            am enthusiastic about learning the basics of programming, web
+            development, and cyber security .
+          </p>
+          <p>
+            I have started building my skills in HTML, CSS, and Python, and I
+            enjoy exploring how technology works through class projects and
+            self-learning. I am a motivated and responsible student who believes
+            in continuous improvement and teamwork. I am eager to grow my
+            knowledge and build a strong foundation for my future career in the
+            IT field.
+          </p>
           <!--This is for contact-->
           <div class="buttons">
-            <button>Contact me!!</button>
+            <a href="#contacts" class="contact-btn">
+              <button type="button">Contact me!!</button>
+            </a>
           </div>
         </div>
         <div class="home-image">
-          <img src="image/img.jpg" alt="Personal Photo" />
+          <img src="image/profile.jpg" alt="Personal Photo" />
         </div>
       </div>
     </section>
@@ -56,47 +94,29 @@
         <div class="skills-container">
           <div class="skill-category">
             <h4>Languages</h4>
-
-            <p>Python</p>
-            <p></p>
+            <p><strong>Python</strong> – For scripting, automation, and problem-solving.</p>
+            <p><strong>HTML5</strong> – Building the structure of web pages.</p>
+            <p><strong>CSS3</strong> – Styling and layout for responsive designs.</p>
+            <p><strong>JavaScript</strong> – Basics of interactivity and dynamic content.</p>
           </div>
           <div class="skill-category">
-            <h4>Tools</h4>
-            <p>VSCode</p>
-            <p>Figma</p>
-            <p>Git</p>
+            <h4>Tools & Platforms</h4>
+            <p><strong>VSCode</strong> – My primary code editor for all projects.</p>
+            <p><strong>Figma</strong> – Designing UI mockups and wireframes.</p>
+            <p><strong>Git & GitHub</strong> – Version control and collaboration.</p>
+            <p><strong>Windows & Linux</strong> – Comfortable with both OS environments.</p>
           </div>
           <div class="skill-category">
-            <h4>Other</h4>
-            <p>HTML</p>
-            <p>CSS</p>
+            <h4>Other Skills</h4>
+            <p><strong>Responsive Web Design</strong> – Making websites look good on any device.</p>
+            <p><strong>Teamwork</strong> – Collaborating on group projects and club activities.</p>
+            <p><strong>Problem Solving</strong> – Tackling challenges with logic and creativity.</p>
+            <p><strong>Communication</strong> – Sharing ideas clearly in both writing and speaking.</p>
           </div>
         </div>
       </div>
     </section>
-    <!-- This is about me-->
-    <section id="about-me">
-      <h3>#About Me</h3>
-      <div class="about-container">
-        <div class="about-content">
-          <h2>Hello!!</h2>
-          <p>
-            I am currently pursuing a degree in Software Engineering at the
-            College of Science and Technology in Rinchending, Phuentsholing. I
-            specialize in creating responsive websites, transforming them into
-            seamless and intuitive web experiences for users.
-          </p>
-          <p>
-            I've been passionate about creating websites for over a year, using
-            my skills and creativity. I've helped friends with their projects
-            and always aim to learn new technologies.
-          </p>
-        </div>
-        <div class="about-image">
-          <img src="image/selpic.jpg" alt="Sangay Choden" />
-        </div>
-      </div>
-    </section>
+  
 
     <!--this is for  Education -->
     <section id="education">
@@ -166,9 +186,33 @@
               </div>
             </div>
           </div>
-
           <!--this is for  Label to control the checkbox -->
           <label for="toggle-more" class="toggle-label">Show More</label>
+        </div>
+      </div>
+    </section>
+
+    <!-- This is  for achievement -->
+    <section id="achievement">
+      <h3>#Achievements</h3>
+      <div class="achievement-container">
+        <div class="achievement-card">
+          <h4>Academic Excellence</h4>
+          <p>
+            During my high school years, I received an <strong>Excellence Certificate in Academics</strong> from my school and was also awarded an <strong>Academic Achievement Certificate</strong> in recognition of my performance.
+          </p>
+        </div>
+        <div class="achievement-card">
+          <h4>leadership</h4>
+          <p>
+            In addition to academics, I actively served as a <strong>Club Coordinator</strong>, where I demonstrated strong leadership and dedication. I worked hard to organize events, support club members, and contribute to the overall success of club activities.
+          </p>
+        </div>
+        <div class="achievement-card">
+          <h4>GCED Online Campus Program</h4>
+          <p>
+            I also participated in the <strong>Online Campus GCED program</strong>, organized by the Asia-Pacific Centre of Education for International Understanding (APCEIU). Through this program, I successfully completed the online course on <strong>Digital Safety and Media and Information Literacy for Empowerment and Advocacy</strong>, which strengthened my awareness of digital rights, media responsibility, and online safety.
+          </p>
         </div>
       </div>
     </section>
@@ -237,7 +281,7 @@
             </p>
             <p>
               <strong><span class="highlight">Email:</span></strong>
-              sangaycho27@gmail.com
+              02240355.cst@rub.edu.bt
             </p>
             <p>
               <strong><span class="highlight">Address:</span></strong>
@@ -275,10 +319,10 @@
           <p>Developed by Sangay</p>
           <nav>
             <ul class="footer-links">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about-me">About Me</a></li>
+              <li><a href="#about-me">about me</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#education">Education</a></li>
+              <li><a href="#achievement">Achievement</a></li>
               <li><a href="#contacts">Contacts</a></li>
             </ul>
           </nav>
